@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  color: $color_1;
+  background: #162b4d;
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+@media (max-width: 1279px) {
+  .footer {
+    line-height: 1.8rem;
+    padding-top: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer__credentials {
+    margin-bottom: 1rem;
+  }
+}
